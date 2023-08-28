@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 module.exports = class Web3Api {
-    static baseURL = 'http://127.0.0.1:8890/v1';
+    static baseURL = 'https://sdk-api.dev2023.site/v1';
     static BodyParamTypes = {
         setBody: 'set body',
         property: 'property',
